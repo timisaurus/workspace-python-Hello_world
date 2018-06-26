@@ -6,7 +6,6 @@ sorted list (ascending order)
 # A function that accepts a positive integers and returns a sorted list
 # of all prime numbers between 2 and n (including 2 / excluding n).
 
-
 def list_of_primes(n):
     output_list = []
     for element in range(2, n):
