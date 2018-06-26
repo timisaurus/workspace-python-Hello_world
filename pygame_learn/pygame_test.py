@@ -164,7 +164,7 @@ def game_loop():
             y = (display_height * 0.7)
             movement_allowed = True
 
-        if movement_allowed == True:
+        if movement_allowed:
             x += x_change_left
             x += x_change_right
 
